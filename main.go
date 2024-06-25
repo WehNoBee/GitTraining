@@ -1,6 +1,7 @@
 package main
 
-import ("fmt" 
+import ("fmt"
+		"os" 
 		"github.com/learning-go-book-2e/ch02")
 
 
@@ -14,7 +15,8 @@ func main(){
 	fmt.Println(real(x))
 	fmt.Println(imag(x))
 	fmt.Println(cmplx.Abs(x))
-
+	fmt.Println("Да здравствует Санкт Петербург", os.Args[1])
+	os.Exit(52)
 }
 
  	//Chapter #1
