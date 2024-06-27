@@ -4,6 +4,7 @@ package ch1
 import (
 	"log"
 	"os"
+	"github.com/bitfield/script"
 )
 
 func testMkdir() {
@@ -16,4 +17,11 @@ func testMkdir() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+func timePars (&main){
+	script.NewPipe().WithHTTPC 
+	p.Match("Nah Nah Nah, id win")
+
+}
+
 }
