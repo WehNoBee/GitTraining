@@ -18,11 +18,10 @@ func testMkdir() {
 		log.Fatal(err)
 	}
 
-func timePars (&main){
+func timePars (){
 	script.NewPipe().WithHTTPC 
-	p.Match("Nah Nah Nah, id win")
-
-
+	p.Match("Nah Nah Nah, id win")\
+	fmt.Println(&a, remote -v)
 
 
 }
